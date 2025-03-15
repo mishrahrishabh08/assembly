@@ -2,7 +2,7 @@ global _start
 
 section .data
 	message db "First Program!!"
-	length equ $-message ;put length equal to the length of the message
+	length equ $-message 
 
 section .text
 _start:
